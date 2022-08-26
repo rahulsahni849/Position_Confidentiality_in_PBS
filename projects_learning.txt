@@ -1,0 +1,61 @@
+file:///C:/Users/rahul/Downloads/sangaiah2019%20(2).pdf
+
+https://www.youtube.com/watch?v=wTF6vzS9fy4
+
+https://www.javatpoint.com/k-nearest-neighbor-algorithm-for-machine-learning
+
+chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://downloads.hindawi.com/journals/misy/2020/3903681.pdf
+
+https://www.hindawi.com/journals/misy/2020/3903681/
+
+https://www.geoplaner.com/
+
+https://docs.python.org/3/library/xml.etree.elementtree.html
+
+https://python-visualization.github.io/folium/quickstart.html#Choropleth-maps
+
+blog:>
+
+https://towardsdatascience.com/calculating-distance-between-two-geolocations-in-python-26ad3afe287b
+https://github.com/ashutoshb418/Foodies-Visualization/blob/master/Foodies_Chain.ipynb
+
+
+Need to study:>
+
+library:> folium, haversine, pprint
+
+concepts:> knn, preprocessing, prediction, regression, EDGE Computing ( MEC )
+ 
+
+
+
+
+
+
+
+
+
+
+ some implementation techniques:>
+
+procedures:>
+
+1.) position extraction from a WSSCR
+
+input:> all WSSCRs
+output:> specific WSSCR and position of PBS user
+
+2.) position recognition
+
+input:> gps position of pbs user and all its info
+output:> track sequence i.e set of positions
+	
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<rtept>
+<name>Route2</name>
+<rtept lat="30.88763" lon="75.79134">
+<name>WP01-A</name>
+</rtept>
+<rtept lat="30.88738" lon="75.79068">
+<name>WP02-B</name>
+</rtept>
+<rtept lat="30.88714" lon="75.78976">
+<name>WP03-C</name>
+</rtept>
+<rtept lat="30.88688" lon="75.78915">
+<name>WP04-D</name>
+</rtept>
+<rtept lat="30.88637" lon="75.78772">
+<name>WP05-E</name>
+</rtept>
+<rtept lat="30.88514" lon="75.78437">
+<name>WP06-F</name>
+</rtept>
+<rtept lat="30.88338" lon="75.77904">
+<name>WP07-G</name>
+</rtept>
+<rtept lat="30.88216" lon="75.77518">
+<name>WP08-H</name>
+</rtept>
+<rtept lat="30.87955" lon="75.76913">
+<name>WP09-I</name>
+</rtept>
+<rtept lat="30.87582" lon="75.77297">
+<name>WP10-J</name>
+</rtept>
+<rtept lat="30.87295" lon="75.77614">
+<name>WP11-K</name>
+</rtept>
+<rtept lat="30.86912" lon="75.78018">
+<name>WP12-L</name>
+</rtept>
+<rtept lat="30.87251" lon="75.78327">
+<name>WP13-M</name>
+</rtept>
+<rtept lat="30.87346" lon="75.78988">
+<name>WP14-N</name>
+</rtept>
+<rtept lat="30.87317" lon="75.79829">
+<name>WP15-O</name>
+</rtept>
+<rtept lat="30.87339" lon="75.80559">
+<name>WP16-P</name>
+</rtept>
+<rtept lat="30.87258" lon="75.80977">
+<name>WP17-Q</name>
+</rtept>
+<rtept lat="30.87155" lon="75.81252">
+<name>WP18-R</name>
+</rtept>
+<rtept lat="30.8741" lon="75.81509">
+<name>WP19-S</name>
+</rtept>
+<rtept lat="30.87737" lon="75.81719">
+<name>WP20-T</name>
+</rtept>
+<rtept lat="30.8805" lon="75.81955">
+<name>WP21-U</name>
+</rtept>
+<rtept lat="30.88289" lon="75.82144">
+<name>WP22-V</name>
+</rtept>
+<rtept lat="30.88554" lon="75.82333">
+<name>WP23-W</name>
+</rtept>
+<rtept lat="30.88484" lon="75.82762">
+<name>WP24-X</name>
+</rtept>
+<rtept lat="30.88359" lon="75.8314">
+<name>WP25-Y</name>
+</rtept>
+<rtept lat="30.88244" lon="75.83534">
+<name>WP26-Z</name>
+</rtept>
+<rtept lat="30.88001" lon="75.84024">
+<name>WP27</name>
+</rtept>
+<rtept lat="30.87772" lon="75.84506">
+<name>WP28</name>
+</rtept>
+<rtept lat="30.87446" lon="75.84954">
+<name>WP29</name>
+</rtept>
+<rtept lat="30.87141" lon="75.85233">
+<name>WP30</name>
+</rtept>
+<rtept lat="30.86824" lon="75.85632">
+<name>WP31</name>
+</rtept>
+<rtept lat="30.86575" lon="75.85882">
+<name>WP32</name>
+</rtept>
+</rtept>
