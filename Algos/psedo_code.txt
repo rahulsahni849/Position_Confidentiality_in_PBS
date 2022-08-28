@@ -1,0 +1,34 @@
+Algorithm 1: Position Recognition.
+
+1: Input: User’s Real time position using GPS.
+
+2: Output: Recognized position ( cloacked region ).
+
+3: UsersList UL ←− NULL
+
+4: Analyzing Real Time users cloacked region
+
+5: Get Remote users until n and add to UsersList
+
+6: After n users found return a message to neighbours n.
+
+9: CloakedRegion CR ←− NULL
+
+10: Evaluate each NeighborUser n appeared in
+UserList UL
+
+11: Analyzing Target user's neighbours and determining their cloacked regions
+
+12: Detect and calculate
+CloakedRegion CR of the target user on the
+basis of AnonymityThreshold k.
+
+13: for n in neighbours do
+Position ←− DecisionTree(n)
+knn_train(Position)
+
+14: RegionName ←− knn.predict(targetUser)
+
+15: return RegionName
+
+
