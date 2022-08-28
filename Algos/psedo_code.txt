@@ -12,23 +12,23 @@ Algorithm 1: Position Recognition.
 
 6: After n users found return a message to neighbours n.
 
-9: CloakedRegion CR ←− NULL
+7: CloakedRegion CR ←− NULL
 
-10: Evaluate each NeighborUser n appeared in
+8: Evaluate each NeighborUser n appeared in
 UserList UL
 
-11: Analyzing Target user's neighbours and determining their cloacked regions
+9: Analyzing Target user's neighbours and determining their cloacked regions
 
-12: Detect and calculate
+10: Detect and calculate
 CloakedRegion CR of the target user on the
 basis of AnonymityThreshold k.
 
-13: for n in neighbours do
+11: for n in neighbours do
 Position ←− DecisionTree(n)
 knn_train(Position)
 
-14: RegionName ←− knn.predict(targetUser)
+12: RegionName ←− knn.predict(targetUser)
 
-15: return RegionName
+13: return RegionName
 
 
