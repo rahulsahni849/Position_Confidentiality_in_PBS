@@ -1,4 +1,4 @@
-Algorithm 1: Position Recognition.
+######  Algorithm 1: Position Recognition.
 
 1: Input: User’s Real time position using GPS.
 
@@ -14,21 +14,82 @@ Algorithm 1: Position Recognition.
 
 7: CloakedRegion CR ←− NULL
 
-8: Evaluate each NeighborUser n appeared in
-UserList UL
+8: Evaluate each NeighborUser n appeared in UserList UL
 
 9: Analyzing Target user's neighbours and determining their cloacked regions
 
 10: Detect and calculate
-CloakedRegion CR of the target user on the
-basis of AnonymityThreshold k.
+    CloakedRegion CR of the target user on the basis of AnonymityThreshold k.
 
 11: for n in neighbours do
-Position ←− DecisionTree(n)
-knn_train(Position)
+
+12:     Position ←− DecisionTree(n)
+
+13:     knn_train(Position)
 
 12: RegionName ←− knn.predict(targetUser)
 
 13: return RegionName
 
 
+
+###### Algorithm 2: Position Track Sequence Generation.
+
+1: Input: Surveillance Codes, set of positions p, GPS Error
+Radius (ER).
+
+2: Output: Position track of surveillance code.
+
+3: CloakedRegion CR ←− NULL
+
+4: Assemble the information of users upositioned in CloakedRegion CR
+
+5: Determining the surveillance code of all users u
+
+6: SurveillanceCode_list <-- Null
+
+7: for each UserList UL = { u1, u2,..un } in CR[x] do
+
+8:      for pos in u.getTrackPosition():
+
+9:            SurveillanceCode_list.append(SurveillanceCode(user.id,SurveillanceCode.TM[3],SurveillanceCode.WD[0],SurveillanceCode.TS[ind],pos))
+
+10: CR ←− { UL }
+
+11: Eliminate UL from CR [x]
+
+12: Psurveillancecode −→ NULL
+
+13: for i = 1 to p do
+
+14:     p <-- NULL
+
+15:     p <-- SurveillanceCode(i)
+
+16:    if SurveillanceCode(Pi) not in Psurveillancecode then
+
+17:         Add SurveillanceCode(Pi,Psurveillancecode)
+
+18: return Psurveillancecode
+
+
+
+###### Algorithm 3: Position Prediction.
+
+1: Input: Surveillance code sequence Psurveillancecode(S).
+
+2: Output: PredictedPosition (P).
+
+3: PositionTrack <-- Psurveillancecode (u)
+
+4: P −→ 0
+
+5: HMModel <-- Null
+
+6: for j = 1, 2, 3.... . , | PositionTrack|do
+
+7:      HMModel <-- HMMTrack(j)(Pseq)
+
+8: P <-- HMModel.PredictPosition(targetUser)
+
+9: return  P
